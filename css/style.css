@@ -1,0 +1,191 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+h1{
+  font-family: 'Playfair Display', serif;
+}
+h3{
+  font-family: 'Ubuntu', sans-serif; 
+  text-transform: uppercase;
+}
+p{
+  font-family: 'Playfair Display', serif;
+}
+header{
+  width: 90%;
+  margin:40px auto;
+  /* border: 2px solid red; */
+  overflow: hidden;
+}
+.logo{
+  width: 20%;
+  float: left;
+}
+.logo img{
+  
+}
+nav{
+overflow: hidden;
+float: right;
+
+width: 50%;
+}
+nav ul{
+overflow: hidden;
+float: right;
+}
+nav ul li{
+
+float: left;
+
+list-style: none;
+
+margin-left: 25px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #626262;
+}
+/* image section  */
+.bannar{
+   width: 90%;
+  margin: 25px auto;
+}
+.bannar img{
+    width: 100%;
+}
+
+
+.photodiary{
+  width: 70%;
+  margin: 40px auto;
+}
+.photodiary h3{
+    margin: top;
+    margin: 25px 0;
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+.photodiary h1{
+    margin: 25px 0 50px;
+    color:#626262;
+}
+.photodiary p{
+    margin-bottom: 75px;
+    color: #626262;
+}
+.lifestyle{
+  width: 70%;
+  margin: 120px auto;
+  overflow: hidden;
+  }
+.lifestyle_left{
+width: 45%;
+float: left;
+}
+.lifestyle_left img{
+ width: 100%;
+}
+.lifestyle_left h3{
+  margin: 25px 0;
+}
+.lifestyle_left h1{
+  margin-bottom: 40px;
+
+}
+
+.lifestyle_right{
+  width: 45%;
+  float: right;
+  }
+  .lifestyle_right img{
+    width: 100%;
+  }
+  .lifestyle_right h3{
+    margin: 25px 0;
+  }
+  .lifestyle_right h1{
+    margin-bottom: 40px;
+  
+  }
+  .newsletter_main{
+
+width: 100%;
+
+padding: 80px 0;
+
+background: #f0f0f0;
+
+}
+.newsletter{
+
+width: 300px;
+
+margin: 0 auto;
+}
+.newsletter h1{
+color: #333333;
+margin-bottom: 70px;
+text-align: center;
+}
+.newsletter input{
+  width: 100%;
+  padding: 10px 0;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #626262;
+  color: #626262;
+}
+.loadmore button {
+  text-align: center;
+  display: block;
+  margin: 100px auto;
+  padding: 20px 40px;
+}
+footer{
+
+width: 100%;
+
+padding: 40px 0;
+
+background: #f0f0f0;
+}
+.footer_main{
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.footer_left{
+    width: 50%;
+    float: left;
+}
+.footer_left ul{
+    overflow: hidden;
+}
+.footer_left ul li{
+    float: left;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.footer_right{
+    float: right;
+    width: 50%;
+}
+.footer_right ul {
+  overflow: hidden;
+  float: right;
+}
+.footer_right ul li{
+  color: #626262;
+  float: left;
+  list-style: none;
+  margin-left: 30px;
+}
+.footer_right ul li a{
+  color: #626262;
+}
